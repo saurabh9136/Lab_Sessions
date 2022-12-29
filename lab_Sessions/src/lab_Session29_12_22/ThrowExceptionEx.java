@@ -10,8 +10,8 @@ public class ThrowExceptionEx {
         int age = sc.nextInt(); // storing input from user in age
         sc.close(); // after using sc class close it
         
-        if(age < 18) { // checking condition while age is less then 18
-        	throw new ArithmeticException("Age is not correct, you are not eligible to vote!"); // using throw we generate own excption
+        if(age < 18) { 
+        	throw new ArithmeticException("Age is not correct, you are not eligible to vote!"); // using throw we generate own exception
         } else {
         	System.out.println("you are eligible to vote");
         }       
