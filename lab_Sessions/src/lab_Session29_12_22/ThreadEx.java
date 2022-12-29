@@ -12,7 +12,7 @@ public class ThreadEx extends Thread{
     	if((UserInput % 2) != 0) { // to check number is even or odd
     		System.out.println("The given number is odd");
     	} else {
-    		System.out.println("Enetred numbr is Even");
+    		System.out.println("Entred number is Even");
     	}
     }
     
