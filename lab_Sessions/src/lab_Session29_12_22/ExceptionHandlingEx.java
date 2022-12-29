@@ -4,10 +4,10 @@ import java.util.Scanner;
 public class ExceptionHandlingEx {
 
 	public static void main(String args[]) {
-		Scanner sc = new Scanner(System.in); // use to tak input from user
+        Scanner sc = new Scanner(System.in); // use to take input from user
         System.out.println("Enter the value of first number");
         int i=sc.nextInt();// storing input from user
-        System.out.println("Enter the value of first number");
+        System.out.println("Enter the value of second number");
         int j=sc.nextInt();
         sc.close();// close the scanner class after use
         
